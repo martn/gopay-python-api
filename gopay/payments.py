@@ -1,5 +1,4 @@
 from gopay.api import JSON, FORM, add_defaults
-from deprecated import deprecated
 
 class Payments:
     def __init__(self, gopay, oauth):
